@@ -5,7 +5,6 @@ static OS_STK stack1[128];
 
 int main(void) {
 	__disable_irq();
-	SystemInit();
 	SysTick_Config(SystemCoreClock / 100);
 
 	OSInit();
