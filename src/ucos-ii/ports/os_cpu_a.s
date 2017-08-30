@@ -34,7 +34,7 @@
     EXPORT  OSStartHighRdy
     EXPORT  OSCtxSw
     EXPORT  OSIntCtxSw
-	EXPORT  PendSV_Handler
+    EXPORT  PendSV_Handler
 
 
 ;********************************************************************************************************
